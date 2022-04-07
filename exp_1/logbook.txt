@@ -1,0 +1,57 @@
+LYSO_3_1.dst
+LYSO in coincidance with both NaI detectors
+beta electron on LYSO + 200keV +300keV on NaI
+Treshhold ch2 ch3 ch4
+-1mV -2mV -2mV
+Scale:ch1= 2mV ch2=10mV ch3=20mV ch4=20mV
+****************************************
+****************************************
+Nasource_3_1.dst
+Na22 source in the middle of NaI1 and NaI2
+1.27 Mev expected in the LYSO and 511keV expected in NaI
+Thr -1mV -2mV -2mV
+Scale:ch1= 2mV ch2=20mV ch3=20mV ch4=20mV
+****************************************
+****************************************
+Nasource_3_2.dst
+Na22 source in the middle of LYSO and NaI2
+511 keV expected in the LYSO and NaI2 and 1.27 MeV on NaI1
+Thr -1mV -40mV -2mV
+Scale:ch1= 2mV ch2=10mV ch3=50mV ch4=10mV
+****************************************
+WARNING Cosource_3_1.dst file was lost
+****************************************
+Cosource_3_1.dst
+Remove the LYSO and put the Co source in the middle of NaI1 and NaI1
+1.17 MeV and 1.33MeV in NaI and pedestal on LYSO
+Thr -1mV(Veto) -10mV -10mV
+Scale:ch1= 2mV ch2=10mV ch3=50mV ch4=50mV
+***************************************
+***************************************
+Cosource_3_2.dst
+Put source between NaI1 and LYSO
+1.17 and 1.3 in NaI1 and LYSO and nothing in NaI2
+Thr -20mV -50mV -2mV(Veto)
+Scale:ch1= 2mV ch2=10mV ch3=50mV ch4=10mV
+***************************************
+WARNING something happens to ch3 maybe baseline changed
+***************************************
+Cosource_3_3.dst ????????????????????????????????????????????????????????????????????????????
+Put source between NaI1 and LYSO
+1.17 and 1.3 in NaI1 and LYSO and nothing in NaI2
+Thr -20mV -50mV -2mV(Veto)
+Scale:ch1= 2mV ch2=10mV ch3=50mV ch4=10mV
+***************************************
+****************************************
+LYSO_3_2.dst ?????????????????????????????????????????????????????????????????????????????????
+Only LYSO with NaI anticoincidance
+1.17 and 1.3 in NaI1 and LYSO and nothing in NaI2
+Thr -2mV -5mV(Veto) -5mV(Veto)
+Scale:ch1= 2mV ch2=10mV ch3=10mV ch4=10mV
+***************************************
+****************************************
+Cssource_3_1.dst
+Cs source in front of the LYSO NaI1 and NaI2 are used for pedestal
+1.17 and 1.3 in NaI1 and LYSO and nothing in NaI2
+Thr -2mV -5mV(Veto) -5mV(Veto)
+Scale:ch1= 2mV ch2=10mV ch3=10mV ch4=10mV
