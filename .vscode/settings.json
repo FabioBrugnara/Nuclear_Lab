@@ -1,8 +1,3 @@
 {
-    "files.associations": {
-        "Na_LYSO_NaI1_NaI2.C": "cpp",
-        "NaI2_cal.C": "cpp",
-        "Co_LYSO_2.C": "cpp",
-        "LYSO_NaI1_NaI2.C": "cpp"
-    }
+    "makefile.extensionOutputFolder": "./.vscode"
 }
