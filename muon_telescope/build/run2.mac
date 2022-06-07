@@ -3,6 +3,6 @@
 # To be run preferably in batch, without graphics:
 # % exampleB2[a,b] run2.mac
 #
-#/run/numberOfThreads 4
+/run/numberOfThreads 1
 /run/initialize
-/run/beamOn 500
+/run/beamOn 200000

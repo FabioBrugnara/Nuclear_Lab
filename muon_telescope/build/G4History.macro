@@ -53,15 +53,3 @@
 /gui/addButton viewer "Update viewer (interaction or end-of-file)" "/vis/viewer/update"
 /gui/addButton viewer "Flush viewer (= refresh + update)" "/vis/viewer/flush"
 /gui/addButton viewer "Update scene" "/vis/scene/notifyHandlers"
-/run/beamOn 10
-/run/beamOn 10
-/run/beamOn 10
-/run/beamOn 10
-/run/beamOn 10
-/run/beamOn 10
-/run/beamOn 10
-/run/beamOn 10
-/run/beamOn 10
-/run/beamOn 10
-/run/beamOn 100
-/run/beamOn 1000
